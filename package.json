@@ -1,34 +1,35 @@
 {
-  "name": "inspire-me",
-  "version": "1.0.0",
-  "description": "Get inspirational quote every time you start this module.",
-  "license": "MIT",
-  "repository": "wedranb/inspire-me",
-  "author": {
-    "name": "Vedran Blazenka",
-    "email": "blazenka.vedran@gmail.com",
-    "url": "vblazenka.com"
-  },
-  "engines": {
-    "node": ">=4"
-  },
-  "scripts": {
-    "test": "ava"
-  },
-  "files": [
-    "index.js"
-  ],
-  "keywords": [
-    ""
-  ],
-  "dependencies": {
-    "chalk": "^1.1.3",
-    "got": "^7.0.0",
-    "html-to-text": "^3.3.0",
-    "ora": "^1.2.0"
-  },
-  "devDependencies": {
-    "ava": "^0.19.1",
-    "sinon": "^2.3.4"
-  }
+	"name": "quote-me",
+	"version": "1.0.0",
+	"description": "Get inspirational quote every time you start this module.",
+	"license": "MIT",
+	"repository": "wedranb/quote-me",
+	"author": {
+		"name": "Vedran Blazenka",
+		"email": "blazenka.vedran@gmail.com",
+		"url": "vblazenka.com"
+	},
+	"engines": {
+		"node": ">=4"
+	},
+	"scripts": {
+		"test": "ava"
+	},
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		"inspiration",
+		"quote"
+	],
+	"dependencies": {
+		"chalk": "^1.1.3",
+		"got": "^7.0.0",
+		"html-to-text": "^3.3.0",
+		"ora": "^1.2.0"
+	},
+	"devDependencies": {
+		"ava": "^0.19.1",
+		"sinon": "^2.3.4"
+	}
 }
